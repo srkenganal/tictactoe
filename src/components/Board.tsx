@@ -137,10 +137,10 @@ function Board() {
                 <td
                   onClick={() => handleClick(rowIndex, cellIndex)}
                   style={{
-                    height: "100px",
-                    width: "100px",
-                    fontSize: "40px",
-                    color: `${ele === "X" ? "red" : "green"}`,
+                    height: "110px",
+                    width: "110px",
+                    fontSize: "50px",
+                    color: `${ele === "X" ? "red" : "blue"}`,
                     fontWeight: "bold",
                   }}
                   key={cellIndex}
